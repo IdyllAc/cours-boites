@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(46, 183, 238), rgb(252, 166, 6), lime); 
+    margin-bottom: 50px;
+ }
+
+ html{
+    scroll-behavior:smooth;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 25% ; 
+    margin: 2rem;
+    border:none;
+    border-radius: 0 0 15px 15px;  
+}
+
+ h1 {
+    text-align: center;
+    color:#0d0101;
+    font-size: 4em;
+ }
+
+ h2 {
+    margin: ;
+    color:#0d0101;
+    font-family:cursive;
+    text-align:justify;
+    font-size: large;
+}
+
+h3 {
+    font-size: medium;
+}
+
+
+ main {
+      min-height: 100px;
+      width: 70%;
+      background-image: linear-gradient(skyblue, white,skyblue, aqua,rgb(75, 75, 231));
+    /* centrer une boite */
+      margin: 0 auto;
+      border: 3px solid red;
+      border-radius: 50%;
+      box-shadow: 5px 5px;
+      padding: 15px;
+      border-bottom: 0;
+      border-right: 0;
+} 
+
+
+
+.flexbox {
+    background-image:linear-gradient(rgb(63, 190, 240), rgb(235, 110, 110), skyblue, yellow);
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid red;
+    border-left: 2px solid #0d0101;
+    border-right: 2px solid lime;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.flexbox ul {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly; 
+    border: 5px solid #0d0101;  
+}
+
+.flexbox li {
+    background-color:cyan;
+    border-radius: 5px;
+    color:#0d0101;
+    text-align:center;
+    align-items:center;
+    padding: 6px;
+    margin: 5px;
+    display:flex;
+    
+}
+
+.container {
+    background-image:linear-gradient(orange,turquoise, yellow);
+    margin: auto;
+    width: 65%;
+    text-align:justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    text-align:justify;
+    color:#0d0101;
+    font-size:12px;
+    font-family:cursive ;
+}
+
+ /* || FOOTER */
+    .footer {
+            padding: sticky;
+            bottom: O;
+			color: var(--HEADER-COLOR);
+            padding: var(--PADDING-TB) var(--PADDING-SIDE); 
+			margin-top: 1em;
+            padding-bottom: 0.7em;
+			text-align: center;
+			font-size: 0.9em;
+		}

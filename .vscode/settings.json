@@ -1,0 +1,7 @@
+{
+    "css.format.maxPreserveNewLines": 30,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "css.lint.float": "ignore",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.port": 5503
+}
